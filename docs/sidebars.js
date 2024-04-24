@@ -6,12 +6,11 @@ module.exports = {
       collapsed: false,
       items: [
         "index",
-        "getting-started/cli",
-        // "guides/basic-prompting",
-        // "guides/document-qa",
-        // "guides/blog-writer",
-        // "guides/memory-chatbot",
-        "guides/rag-with-astradb",
+        "getting-started/install-langflow",
+        "getting-started/quickstart",
+        "getting-started/huggingface-spaces",
+        //"getting-started/cli",
+        "getting-started/new-to-llms",
       ],
     },
     {
@@ -46,6 +45,7 @@ module.exports = {
         "migration/global-variables",
         // "migration/experimental-components",
         // "migration/state-management",
+        "guides/rag-with-astradb",
       ],
     },
     {
@@ -53,6 +53,7 @@ module.exports = {
       label: "Guidelines",
       collapsed: false,
       items: [
+        "getting-started/cli",
         "guidelines/login",
         "guidelines/api",
         "guidelines/components",
